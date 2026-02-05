@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f7f7;
+}
+
+/* الهيدر */
+.hero {
+  background: #3c7f7b;
+  color: white;
+}
+
+.overlay {
+  padding: 20px;
+  position: relative;
+}
+
+.menu-btn {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+}
+
+.search-box {
+  display: flex;
+  margin-top: 15px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.search-box button {
+  margin-right: 5px;
+  border-radius: 50%;
+  border: none;
+  padding: 10px;
+}
+
+/* القائمة */
+.menu {
+  position: absolute;
+  top: 70px;
+  right: 15px;
+  background: #2f6f6b;
+  border-radius: 12px;
+  width: 160px;
+  display: none;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  z-index: 999;
+}
+
+.menu a {
+  display: block;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.menu a:last-child {
+  border-bottom: none;
+}
+
+.menu.show {
+  display: block;
+}
+  display: block;
+}
+
+/* المحتوى */
+.section {
+  padding: 16px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.tag {
+  display: block;
+  padding: 8px;
+  color: gray;
+}
+
+.article {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+}
+
